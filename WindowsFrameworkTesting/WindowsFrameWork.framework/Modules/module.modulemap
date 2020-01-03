@@ -1,0 +1,11 @@
+framework module WindowsFrameWork {
+  umbrella header "WindowsFrameWork.h"
+
+  export *
+  module * { export * }
+}
+
+module WindowsFrameWork.Swift {
+    header "WindowsFrameWork-Swift.h"
+    requires objc
+}
